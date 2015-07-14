@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails haiku: development" uuid="9aaf4773-3d64-4c2c-abe8-c482107ba210">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+      <schema-pattern>haiku_development.pg_catalog haiku_development.public</schema-pattern>
+      <default-schemas>haiku_development.pg_catalog haiku_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails haiku: test" uuid="b199c100-17e4-4d5b-b6b8-c6aadc33bd38">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+      <schema-pattern>haiku_test.pg_catalog haiku_test.public</schema-pattern>
+      <default-schemas>haiku_test.pg_catalog haiku_test.public</default-schemas>
+    </data-source>
+  </component>
+</project>
