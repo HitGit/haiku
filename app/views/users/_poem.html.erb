@@ -1,0 +1,28 @@
+<%= form_for @poem do |f| %>
+    
+
+    <div class="field">
+      <%= f.label :poem %><br>
+      <%= f.text_field :poem %>
+    </div>
+
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+
+
+<% end %>
+
+
+<div class="form-group">
+  <label for="haiku">Be creative.  Be funny.  However you're feeling, share it in a haiku.<br>The first line should contain 5 syllables.<br> The second line should contain 7 syllables.<br>And the last line should contain 5 syllables.
+  </label>
+
+  <textarea class="form-control" rows="5" id="haiku">
+
+  </textarea>
+
+  <button type="submit" class="btn btn-success">Submit</button>
+
+</div>

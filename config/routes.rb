@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
   devise_for :users
   resources :users
+  resources :poems
   root 'users#index'
+  # root 'devise/registrations#new'
 
 end
 
