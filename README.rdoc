@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby 2.2.1
+Rails 4.2.2
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This app allows user to input their own haikus.
+It has user and poem models.  
+Devise, Bootstrap-SASS gems.
+The poem controller is unfinished and planned features for app include voting up/down, drop down for category, and possibly randomizing the lines with a 'Feeling Lucky' button.
